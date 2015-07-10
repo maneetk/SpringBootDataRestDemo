@@ -1,0 +1,13 @@
+*.class
+*.gitattributes
+
+*.log
+/target
+
+# IDE files #
+.buildpath
+.classpath
+.project
+.settings
+.settings
+.metadata

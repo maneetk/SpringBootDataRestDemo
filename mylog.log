@@ -948,3 +948,6 @@ javax.persistence.NonUniqueResultException: result returns more than one element
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 
+2015-07-09 19:19:39.420  INFO 7212 --- [Thread-1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@727e8a11: startup date [Thu Jul 09 19:16:08 IST 2015]; root of context hierarchy
+2015-07-09 19:19:39.420  INFO 7212 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2015-07-09 19:19:39.451  INFO 7212 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
