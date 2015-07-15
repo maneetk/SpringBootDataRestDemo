@@ -41,4 +41,9 @@ public class PersonServiceImpl implements PersonService {
 		return null;
 	}
 
+	@Override
+	public Person findRandom() {
+		return repository.findOne(1L);
+	}
+
 }
